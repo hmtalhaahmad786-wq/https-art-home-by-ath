@@ -1,0 +1,19 @@
+{
+    "LocalPresetList": [
+        {
+            "deviceType": 32,
+            "games": "Forza Horizon 5",
+            "presetName": "eger",
+            "tags": "",
+            "value": "{\"acceleratorPointX1\":13107,\"acceleratorPointX2\":26214,\"acceleratorPointX3\":39321,\"acceleratorPointX4\":52428,\"acceleratorPointY1\":13107,\"acceleratorPointY2\":26214,\"acceleratorPointY3\":39321,\"acceleratorPointY4\":52428,\"acceleratorValue\":20,\"angle\":1800,\"brakePointX1\":13107,\"brakePointX2\":26214,\"brakePointX3\":39321,\"brakePointX4\":52428,\"brakePointY1\":13107,\"brakePointY2\":26291,\"brakePointY3\":39321,\"brakePointY4\":52428,\"brakeValue\":21,\"centeringForce\":100,\"circleValue\":9,\"clutchPointX1\":13107,\"clutchPointX2\":26214,\"clutchPointX3\":39321,\"clutchPointX4\":52428,\"clutchPointY1\":13107,\"clutchPointY2\":26214,\"clutchPointY3\":39321,\"clutchPointY4\":52428,\"clutchValue\":22,\"crossValue\":9,\"dampingForce\":100,\"downLeftPickValue\":38,\"downRightPickValue\":39,\"downValue\":6,\"feedbackReverse\":false,\"forceFeedback\":100,\"gameFrictionForce\":100,\"homeValue\":16,\"l1Value\":12,\"l3Value\":1,\"leftValue\":7,\"limitForce\":1,\"maxTorque\":30,\"mechanicalDamping\":30,\"menuValue\":3,\"paddleDualFunction\":1,\"paddleDualPoint\":51,\"r1Value\":13,\"r3Value\":2,\"reverseAccelerator\":false,\"reverseBrake\":false,\"reverseClutch\":false,\"rightValue\":5,\"roadFeel\":100,\"shareValue\":17,\"sineWaveForce\":100,\"springForce\":100,\"squareValue\":11,\"triangleValue\":8,\"upValue\":4,\"viewValue\":0}"
+        },
+        {
+            "deviceType": 32,
+            "games": "Forza Horizon 5",
+            "presetName": "tlh",
+            "tags": "",
+            "value": "{\"acceleratorPointX1\":12954,\"acceleratorPointX2\":26099,\"acceleratorPointX3\":39244,\"acceleratorPointX4\":52389,\"acceleratorPointY1\":13184,\"acceleratorPointY2\":26369,\"acceleratorPointY3\":39359,\"acceleratorPointY4\":52544,\"acceleratorValue\":20,\"angle\":1800,\"brakePointX1\":12954,\"brakePointX2\":26099,\"brakePointX3\":39244,\"brakePointX4\":52389,\"brakePointY1\":13184,\"brakePointY2\":26369,\"brakePointY3\":39359,\"brakePointY4\":52544,\"brakeValue\":21,\"centeringForce\":100,\"circleValue\":9,\"clutchPointX1\":12954,\"clutchPointX2\":26099,\"clutchPointX3\":39244,\"clutchPointX4\":52389,\"clutchPointY1\":13184,\"clutchPointY2\":26369,\"clutchPointY3\":39359,\"clutchPointY4\":52544,\"clutchValue\":22,\"crossValue\":10,\"dampingForce\":100,\"downLeftPickValue\":38,\"downRightPickValue\":39,\"downValue\":6,\"feedbackReverse\":false,\"forceFeedback\":100,\"gameFrictionForce\":100,\"homeValue\":16,\"l1Value\":12,\"l3Value\":1,\"leftValue\":7,\"limitForce\":0,\"maxTorque\":32,\"mechanicalDamping\":31,\"menuValue\":3,\"paddleDualFunction\":2,\"paddleDualPoint\":100,\"r1Value\":13,\"r3Value\":2,\"reverseAccelerator\":false,\"reverseBrake\":false,\"reverseClutch\":false,\"rightValue\":5,\"roadFeel\":100,\"shareValue\":17,\"sineWaveForce\":100,\"springForce\":100,\"squareValue\":11,\"triangleValue\":8,\"upValue\":4,\"viewValue\":0}"
+        }
+    ],
+    "customTags": ""
+}

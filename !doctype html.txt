@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art Gallery Store</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; background: #f2f2f2; }
+        header { background: #333; color: #fff; padding: 20px; text-align: center; }
+        nav { background: #555; padding: 10px; text-align: center; }
+        nav a { color: #fff; margin: 0 15px; text-decoration: none; font-size: 18px; }
+        .container { width: 90%; margin: auto; padding: 20px; }
+        .products { display: flex; flex-wrap: wrap; gap: 20px; }
+        .product { background: #fff; padding: 15px; width: 30%; border-radius: 8px; box-shadow: 0 0 10px #ccc; }
+        .product img { width: 100%; height: 250px; object-fit: cover; border-radius: 8px; }
+        .product h3 { margin: 10px 0; }
+        .product button { background: #8a2be2; color: #fff; padding: 10px; border: none; width: 100%; cursor: pointer; border-radius: 5px; }
+        .product button:hover { background: #6a1bb9; }
+        footer { background: #333; color: #fff; text-align: center; padding: 15px; margin-top: 20px; }
+        #cart { background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px #ccc; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>My Art Gallery</h1>
+    <p>Handmade Paintings • Unique • Beautiful</p>
+</header>
+
+<nav>
+    <a href="#products">Paintings</a>
+    <a href="#cart">Cart</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div class="container" id="products">
+    <h2>Available Paintings</h2>
+    <div class="products">
+
+        <div class="product">
+            <img src="https://via.placeholder.com/400x300?text=Abstract+Painting" alt="Abstract Art">
+            <h3>Abstract Colors</h3>
+            <p>Price: Rs 5000</p>
+            <button onclick="addToCart('Abstract Colors', 5000)">Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="https://via.placeholder.com/400x300?text=Landscape+Painting" alt="Landscape">
+            <h3>Mountain Landscape</h3>
+            <p>Price: Rs 7000</p>
+            <button onclick="addToCart('Mountain Landscape', 7000)">Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="https://via.placeholder.com/400x300?text=Portrait+Painting" alt="Portrait">
+            <h3>Woman Portrait</h3>
+            <p>Price: Rs 6000</p>
+            <button onclick="addToCart('Woman Portrait', 6000)">Add to Cart</button>
+        </div>
+
+    </div>
+</div>
+
+<div class="container" id="cart">
+    <h2>Your Cart</h2>
+    <ul id="cartList"></ul>
+    <h3>Total: Rs <span id="total">0</span></h3>
+</div>
+
+<div class="container" id="contact">
+    <h2>Contact Us</h2>
+    <form>
+        <label>Name:</label><br>
+        <input type="text" style="width:100%; padding:10px;"><br><br>
+
+        <label>Email:</label><br>
+        <input type="email" style="width:100%; padding:10px;"><br><br>
+
+        <label>Message:</label><br>
+        <textarea style="width:100%; padding:10px;" rows="5"></textarea><br><br>
+
+        <button style="padding:10px 20px; background:#8a2be2; color:#fff; border:none;">Send</button>
+    </form>
+</div>
+
+<footer>
+    <p>© 2026 My Art Gallery | All Rights Reserved</p>
+</footer>
+
+<script>
+    let total = 0;
+
+    function addToCart(name, price) {
+        const cartList = document.getElementById("cartList");
+        const item = document.createElement("li");
+        item.textContent = `${name} - Rs ${price}`;
+        cartList.appendChild(item);
+
+        total += price;
+        document.getElementById("total").textContent = total;
+    }
+</script>
+
+</body>
+</html>
